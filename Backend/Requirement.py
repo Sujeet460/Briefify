@@ -1,0 +1,9 @@
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+pydantic==2.10.1
+requests==2.32.3
+beautifulsoup4==4.12.3
+nltk==3.9.1
+pymongo==4.10.1
+python-multipart==0.0.18
+lxml==5.3.0
