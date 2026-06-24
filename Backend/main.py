@@ -29,7 +29,7 @@ app.add_middleware(
 )
 
 # MongoDB connection
-MONGO_URI = os.getenv("MONGO_URI", "mongodb://localhost:27017")
+MONGO_URI = os.getenv("MONGO_URI", "mongodb+srv://sujeetverma6388:Sujit460@cluster0.sus6mxp.mongodb.net/briefify?appName=Cluster0")
 client = MongoClient(MONGO_URI)
 db = client["url_summarizer"]
 summaries_collection = db["summaries"]
